@@ -268,13 +268,13 @@ The wallets from Batch C, on the other hand, initially interacted with the Alien
 
 When examining the wallets' histories on other networks, further similarities become immediately apparent:
 
-![Important Diagram](https://github.com/fdasfdsd/mango/blob/main/1.png?raw=true)
+![Important Diagram](https://github.com/fdasfdsd/Report1/blob/main/10.png?raw=true)
 
 Typically, the wallets first staked an amount of approximately 0.15 ETH with Renzo Protocol. About half of the wallets then restaked the received staking token in the ZeroLend protocol. Some time later, the wallets interacted with the smart contract 0xE98 and subsequently exchanged a small amount of ETH on SyncSwap. The amount of funds used in these transactions is similar.
 
 The initial transactions that the wallets conducted on Linea are almost identical:
 
-![Important Diagram](https://github.com/fdasfdsd/mango/blob/main/1.png?raw=true)
+![Important Diagram](https://github.com/fdasfdsd/Report1/blob/main/11.png?raw=true)
 
 The wallets all bridge approximately the same amount of Ether via the Linea Message Service to Linea and initially interact a few times with the Layer Bank protocol. Then, they interact with Clique and exchange around 0.015 Ether into stablecoins via SyncSwap. Finally, on October 7, 2023, each of the listed wallets mints an AzuroBet NFT and a BetExpress NFT by interacting with Azuro.
 
@@ -317,13 +317,13 @@ All listed wallets bridge Ether from zkSync Era to Ethereum on February 2, 2024.
 
 As we can see, in the first transaction hash 0x674, 10 of the listed wallets receive an almost identical amount of Ether. In the second row, 19 wallets receive Ether in the same hash. The time interval between the first and last transaction hash is 84 seconds. All addresses from Batch D receive their zkSync payout in batch 0x367 and execute the Uniswap purchase of Memecoin in Ethereum block 18988810.
 
-![Important Diagram](https://github.com/fdasfdsd/mango/blob/main/1.png?raw=true)
+![Important Diagram](https://github.com/fdasfdsd/Report1/blob/main/12.png?raw=true)
 
 Graphic 12 shows how, in batch transaction 0x674, a total of 10 of the listed wallets bridge an almost identical amount of Ether from zkSync to Ethereum. The wallets marked in red are all wallets from Batch C.
 
 As mentioned above, all wallets interact with Azuro on Linea on October 7, 2023. Here, the same pattern emerges:
 
-![Important Diagram](https://github.com/fdasfdsd/mango/blob/main/1.png?raw=true)
+![Important Diagram](https://github.com/fdasfdsd/Report1/blob/main/13.png?raw=true)
 
 Graphic 13 shows an excerpt from Linea block 580266, in which 15 of the listed wallets interact with Azuro. In the next block 580267, five more wallets perform this activity. The addresses marked in red are addresses from the Sybil network.
 
