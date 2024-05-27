@@ -335,4 +335,11 @@ I found the addresses from Batch C while analyzing another Sybil cluster’s tra
 
 I hope that with this report, I have contributed to a fair distribution of coins to the community.
 
+**Reward Address**
+<pre>
+<code>
+0x1FbF6D4f22a8d688F66C53bB57E85B3abA81526d
+</code>
+</pre>
+
 
