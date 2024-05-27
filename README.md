@@ -188,3 +188,83 @@ Since these wallets are so old and mostly interact directly with only a few neig
 Approximately half of the specified wallets were funded via Ethereum in 2020. The other half received their first funding in early April 2021 via Polygon. When analyzing the funding structure of the latter wallets, I noticed the following pattern: Each specified wallet received an amount of 105.00-105.40 DAI on Polygon from another wallet in the Sybil network between April 10 and April 13, 2021. Subsequently, each wallet made two transactions through Instadapp and then transferred the DAI back to another wallet in the network.
 
 **GRAPHIC 4**
+
+**Consider the Pattern Using the Example of Wallet 0xa85e87F7bCE4D5E5c60160D64670c2CF76BC1238 from Batch A in Graphic 4.**
+
+The wallet received 105.95 DAI on April 12, 2021, from wallet 0xf718D1C0bb83f7bF3924dE04f908731FA1747EA4 from Batch A. After the account made two transactions via Instadapp, it sent the DAI to wallet 0x1aB162ec3C735edcCc245E04505718E08f25A5Ff from Batch A. 
+
+The transaction pattern resembles a chain that starts from the wallet kingson.eth, runs through the entire Sybil network (i.e., all addresses from Batch A and Batch B, as well as the filtered-out addresses), and ends at the address 0x99e42D084493Cc7730c854d9C45286B2B012F0f3, which no longer actively farms airdrops.
+
+**GRAPHIC 5**
+
+Graphic 5 illustrates this chain structure: the first three wallets are part of Batch B and are funded by their respective predecessors. Then, the wallet 0xD20 from Batch A receives the DAI, which it then sends to the address 0x7EE, which is on the initial list from layer zero. The wallets thus form a coherent cluster, where each wallet in the Sybil network is directly connected in a line with all other wallets in the network. Starting from the wallet kingson.eth, all other wallets in the cluster can be identified through tracing.
+
+**Transaction Pattern on Ethereum**
+
+There are significant differences among the individual wallets regarding age, activity level, and the order of executed transactions. While most wallets have a transaction count between 60 and 120 on Ethereum, the wallet kingson.eth alone has conducted around 1500 transactions on Ethereum. Despite this, many of the wallets follow a similar transaction pattern.
+
+**GRAPHIC 6**
+
+Graphic 6 shows the transaction pattern of wallets from Batch B on Ethereum using the example of wallet 0xADa4eF03c4A213977672880f39Ca42f3963b1A61. The following transactions are highlighted in red in the graphic:
+1. Many wallets received a deposit from Okx on October 3, 2023, or October 11, 2023.
+2. Between May 3-5, 2023, or October 10-12, 2023, many wallets bridged a similar amount via the Manta Bridge.
+3. On October 5, 2023, many wallets minted several NFTs by interacting with the smart contract 0x99F.
+4. On May 13, many wallets minted several NFTs by interacting with the smart contract 0x75F.
+5. On October 15, 2023, many wallets executed the claim rank function of the Xen Crypto smart contract.
+6. On May 4, 2024, or May 5, 2024, many wallets transferred Altlayer Tokens that were previously staked.
+
+Almost all wallets from Batch B and most wallets from Batch A follow this transaction pattern.
+
+**Transaction Pattern on Linea**
+
+When examining the transaction history of wallets on the Linea network, further similarities become immediately apparent:
+
+**GRAPHIC 7**
+
+Graphic 7 shows the Linea history of wallet 0x719eEb3C6E4903FBF30386FF946F8d74a30B1D21 from Batch B. All wallets from Batch A and Batch B follow the following pattern:
+1. 77 of the 88 listed wallets from Batch A and Batch B received around 0.04 Ether from the Okx Hot Wallet on February 18, 2024.
+2. All listed wallets interacted with Polyhydra Network on February 18, 2024.
+3. All listed wallets transferred 0.0001 Ether to Sonorus Network on March 8, 2024.
+4. All listed wallets made their last transaction on Linea on April 5, 2024, by minting a Layer 3 cube NFT.
+
+With slight deviations in order, most wallets interact with the smart contracts outlined in green in the graphic.
+
+It is immediately clear that the wallets do not pursue an economic purpose and were only created for airdrop farming. The wallets mainly interacted with projects popular among Sybil attackers, such as zkSync, Linea, Base, Aztec, Starknet, and Layer Zero. The executed transactions often involve economically insignificant actions in the single-digit dollar range, as observed in the Linea transaction history example. These transactions aim to simulate organic user activity to receive a higher allocation in the event of an airdrop. For example, many accounts deposited around 30 Stargate coins in the Stargate voting escrow, aiming to maximize the yield of a potential Layer Zero airdrop through voting activity.
+
+**Sybil Network 2**
+
+The wallets from Batch C and Batch D are operated by the same entity, which I categorized into respective batches based on their Ethereum transaction history.
+
+**Transaction Pattern on Ethereum**
+
+The wallets exhibit almost identical ages, similar transaction counts, and perform the same activities simultaneously. All wallets have nearly identical balances on Ethereum: they all hold around 0.1 ETH and 0.1 pufETH. I was also able to identify certain transaction patterns in all these wallets.
+
+**GRAPHIC 8**
+
+As seen in the example of wallet 0x9DA1c9C2112462fDd79eF82DeE9dC27A9ed96fb7 in Graphic 8, the wallets interact with smart contracts on Ethereum in the following pattern:
+1. On July 26, 2023, each of the listed wallets bridged around 0.08 ETH via Stargate to Ethereum.
+2. All wallets registered an ENS on either October 5, 2023, or October 15, 2023.
+3. Subsequently, the wallets interacted with Rhino.fi on different days.
+4. On January 12, 2024, each listed wallet bought exactly 69 MEME (Memecoin) via Uniswap.
+5. On February 2, 2024, all wallets bridged around 0.11 ETH from zkSync to Ethereum.
+
+When comparing the rest of the Ethereum transaction history, other recurring patterns can be identified. Besides the previously mentioned activities, all wallets minted a Fundrop Sticker on August 20, 2023. Following the ENS registration, the wallets conducted a relatively high Ethereum transaction (6-9 ETH) with zkSync/Starknet compared to their other transactions. On February 3, 2024, the accounts staked around 0.1 ETH with Lido and restaked the received token with Puffer Finance.
+
+There are also differences in the Ethereum history, particularly between the two batches. Batch D has an almost identical transaction history on Ethereum. Each wallet sold around 276,000 Titanx Coins on October 29, 2023. Additionally, all wallets from Batch D claimed and staked Eigenlayer Tokens.
+
+**GRAPHIC 9**
+
+The wallets from Batch C, on the other hand, initially interacted with the Alienswap smart contract 0x6B4, as seen in the example of wallet 0xD8Cf436B2190aAd5B91D06dB96aaaeE71e944b0a in Graphic 2. Subsequently, the wallets executed the previously mentioned transactions. On October 28, 2023, each wallet from Batch C minted a Zerion DNA NFT. Unlike Batch D, only about half of the wallets from Batch C claimed and staked Eigenlayer Tokens. All wallets from Batch C, except for the last two, received ETH from the Alienswap smart contract 0x001FE350a8624166E946f0Ba67065a325bdDcc2B on September 11, 2023.
+
+**Transaction Pattern on Other Networks**
+
+When examining the wallets' histories on other networks, further similarities become immediately apparent:
+
+**GRAPHIC 10**
+
+Typically, the wallets first staked an amount of approximately 0.15 ETH with Renzo Protocol. About half of the wallets then restaked the received staking token in the ZeroLend protocol. Some time later, the wallets interacted with the smart contract 0xE98 and subsequently exchanged a small amount of ETH on SyncSwap. The amount of funds used in these transactions is similar.
+
+The initial transactions that the wallets conducted on Linea are almost identical:
+
+**GRAPHIC 11**
+
