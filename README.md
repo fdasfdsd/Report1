@@ -150,3 +150,41 @@ Batch D
 0xe55088675889643c4b2B78fbb4020c533711a992
 </code>
 </pre>
+
+**Reasoning and Methodology**
+The wallets mentioned above are all Sybil wallets operated by two different entities. The addresses in Batch A and Batch B belong to the same Sybil network, while the wallets in Batch C and Batch D are operated by another person. Here, I will substantiate my claims:
+
+**Sybil Network 1**
+**Batch A**
+All wallets in Batch A share a common characteristic: they have all made deposits to the Binance deposit address 0x99036d68404587056732e1982658236AC1219493, which clearly indicates that a single person controls all these wallets.
+
+**GRAPHIC 1**
+The wallets in the middle of Graphic 1 are some wallets from Batch A, which I inserted into the Arkham Tracer. These wallets, like all addresses in Batch A, make deposits into the same Binance account. As can be seen, the accounts conduct transactions of varying amounts with the address 0x366e58737164430AF4AEd2856840be9BB148BDC7 (kingson.eth). The transaction network between the individual wallets is very dense, meaning many of the accounts have directly transferred funds among each other. The wallets icemilk.eth, helianthus.eth, and kingson.eth interact with a disproportionately large number of other wallets.
+
+The person operating the wallets has successfully farmed several other airdrops in the past. Consider the following graphic:
+**GRAPHIC 2**
+Graphic 2 shows part of the transaction history of the aforementioned Binance deposit address. In the shown segment, the Sybil attacker claimed 271.834 or 1049 Optimism Tokens with all wallets from Batch A (except for the last 5 addresses) on June 1, 2022, and deposited them into their Binance account on the same day. The account kingson.eth deposited their airdrop reward of 3301 OP on September 2, 2022.
+
+**Batch B**
+The wallets in Batch B have not directly deposited to the specified Binance address. I found these wallets because, except for the wallet 0x719eEb3C6E4903FBF30386FF946F8d74a30B1D21, they received a deposit of 0.1 USDT on the Polygon network on May 26/27, 2021, from the addresses 0xC0A57f1F4C9998A67c8F387CC181b099E7Cd986A or 0x3A2Cc444a0eA0e3e942C23042C196cc5d1f796a0. These two addresses are in Batch A and both claimed 271.834 OP on June 1, 2022, and deposited them into the same Binance account.
+
+**GRAPHIC 3**
+Graphic 3 shows the transaction history of the address 0x3A2Cc444a0eA0e3e942C23042C196cc5d1f796a0. This account sent 0.1 USDT over Polygon to numerous wallets on May 27, 2021. The wallets I found this way and that were not already included in Batch A, I listed in Batch B. Additionally, I came across the following addresses, which also received 0.1 USDT and are part of the Sybil network, but were already filtered out by layer zero in the first filtering process:
+- 0x017D0c0429922121Cf25b4Abe519d64B953b9B72
+- 0x13a412D3228Fa4dF502578A736254e4734831A0B
+- 0x6FcDbf5BA4657F00f4A9d36A9dD55cf7bF465748
+- 0x56b68657109c069fb32B85f59A194c746625F92E
+- 0x9d4564C9Fc43Dbb6b8FFE147aED4705a9CbAE577
+- 0xd94E57a7a24819E42dA9615D3440818791c16c02
+- 0x4bDdA6bA6a56792eC48CD8B49Bbd96889Bd008B4
+- 0x911D540F329de6FE8EfC802d6D25Af7DD339F4b7
+- 0xf27f95a4963D49C7C88686dB7cb560004A1D08F0
+- 0xb94D3E813364483795018814b08b9dcdc3d4Ef6a
+- 0x2C53421Dd703aDcAACb795010a2011e1023DA3D0
+- 0x7EE5e1955096EB5265335Cfc2e96503Daa96C5d9
+
+Since these wallets are so old and mostly interact directly with only a few neighbors, they do not immediately appear as Sybil wallets. Nevertheless, some addresses from this cluster have already been identified as Sybil by layer zero. All addresses in this Sybil network follow certain patterns, as shown below.
+
+Approximately half of the specified wallets were funded via Ethereum in 2020. The other half received their first funding in early April 2021 via Polygon. When analyzing the funding structure of the latter wallets, I noticed the following pattern: Each specified wallet received an amount of 105.00-105.40 DAI on Polygon from another wallet in the Sybil network between April 10 and April 13, 2021. Subsequently, each wallet made two transactions through Instadapp and then transferred the DAI back to another wallet in the network.
+
+**GRAPHIC 4**
