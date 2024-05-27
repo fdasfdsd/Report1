@@ -268,3 +268,38 @@ The initial transactions that the wallets conducted on Linea are almost identica
 
 **GRAPHIC 11**
 
+The wallets all bridge approximately the same amount of Ether via the Linea Message Service to Linea and initially interact a few times with the Layer Bank protocol. Then, they interact with Clique and exchange around 0.015 Ether into stablecoins via SyncSwap. Finally, on October 7, 2023, each of the listed wallets mints an AzuroBet NFT and a BetExpress NFT by interacting with Azuro.
+
+**Transactions in the Same Blocks**
+
+As we have seen, the wallets perform certain transactions on exactly the same days with similar amounts. However, the wallets are not only active on the same days; the transactions are often even conducted within the same blocks.
+
+**TABLE 1**
+
+As previously mentioned, all listed wallets register their ENS on either October 5, 2023, or October 15, 2023. Consider the table above: the Sybil attacker registers the ENS for multiple wallets within the same block. On October 5, 2023, in block 18280748, five wallets from Batch C register their ENS, and five blocks later, four more wallets do the same. On October 15, 2023, in block 18353467, and six blocks later, in block 18353473, a total of eight wallets register an ENS.
+
+All listed wallets bridge Ether from zkSync Era to Ethereum on February 2, 2024. The payout for all listed wallets occurs not only on the same day but even within the same batch transactions. All 41 wallets receive their Ether in the following four batch transactions:
+
+**TABLE 2**
+
+As we can see, in the first transaction hash 0x674, 10 of the listed wallets receive an almost identical amount of Ether. In the second row, 19 wallets receive Ether in the same hash. The time interval between the first and last transaction hash is 84 seconds. All addresses from Batch D receive their zkSync payout in batch 0x367 and execute the Uniswap purchase of Memecoin in Ethereum block 18988810.
+
+**GRAPHIC 12**
+
+Graphic 12 shows how, in batch transaction 0x674, a total of 10 of the listed wallets bridge an almost identical amount of Ether from zkSync to Ethereum. The wallets marked in red are all wallets from Batch C.
+
+As mentioned above, all wallets interact with Azuro on Linea on October 7, 2023. Here, the same pattern emerges:
+
+**GRAPHIC 13**
+
+Graphic 13 shows an excerpt from Linea block 580266, in which 15 of the listed wallets interact with Azuro. In the next block 580267, five more wallets perform this activity. The addresses marked in red are addresses from the Sybil network.
+
+**Conclusion**
+
+I have noticed that many Sybils, while trying to avoid direct transactions between their wallets, often interact with the same projects within the same block using their wallets. While analyzing another suspected Sybil cluster, I came across transaction 0xf3a25abf10226ec525a9ff209f66ed77a452dc79c9940c842ba51b5b238932e2 in the neighboring blocks, where the first Sybil attacker paid out similar amounts from Aztec to some of their wallets. Due to the similar Ethereum transaction history of the wallets, I began to investigate the wallets for commonalities and eventually discovered the transaction patterns described above.
+
+I found the addresses from Batch C while analyzing another Sybil cluster’s transactions involving the smart contract 0x001FE350a8624166E946f0Ba67065a325bdDcc2B, which belongs to Alienswap. In the batch transaction 0x09313a3638d17167bac7338140e8c32d1dc784b1a39e3ef19c88af1c502308b5, I noticed that some wallets had similar ENS names. Upon closer inspection, it became clear to me that all these wallets had an almost identical transaction history. So, I looked at more batch transactions of the smart contract and compiled all wallets following these patterns into Batch C. I noticed that many of the wallets conducted Ethereum transactions within the same block. Therefore, I analyzed the neighboring blocks and searched for wallets with the same pattern, which led me to Batch D, all of whom received Ether from zkSync in block 19140875. In my research, I primarily used Arkham Tracer, Etherscan, and LineaScan.
+
+I hope that with this report, I have contributed to a fair distribution of coins to the community.
+
+
