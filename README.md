@@ -152,23 +152,31 @@ Batch D
 </pre>
 
 **Reasoning and Methodology**
+
 The wallets mentioned above are all Sybil wallets operated by two different entities. The addresses in Batch A and Batch B belong to the same Sybil network, while the wallets in Batch C and Batch D are operated by another person. Here, I will substantiate my claims:
 
 **Sybil Network 1**
+
 **Batch A**
+
 All wallets in Batch A share a common characteristic: they have all made deposits to the Binance deposit address 0x99036d68404587056732e1982658236AC1219493, which clearly indicates that a single person controls all these wallets.
 
 **GRAPHIC 1**
+
 The wallets in the middle of Graphic 1 are some wallets from Batch A, which I inserted into the Arkham Tracer. These wallets, like all addresses in Batch A, make deposits into the same Binance account. As can be seen, the accounts conduct transactions of varying amounts with the address 0x366e58737164430AF4AEd2856840be9BB148BDC7 (kingson.eth). The transaction network between the individual wallets is very dense, meaning many of the accounts have directly transferred funds among each other. The wallets icemilk.eth, helianthus.eth, and kingson.eth interact with a disproportionately large number of other wallets.
 
 The person operating the wallets has successfully farmed several other airdrops in the past. Consider the following graphic:
+
 **GRAPHIC 2**
+
 Graphic 2 shows part of the transaction history of the aforementioned Binance deposit address. In the shown segment, the Sybil attacker claimed 271.834 or 1049 Optimism Tokens with all wallets from Batch A (except for the last 5 addresses) on June 1, 2022, and deposited them into their Binance account on the same day. The account kingson.eth deposited their airdrop reward of 3301 OP on September 2, 2022.
 
 **Batch B**
+
 The wallets in Batch B have not directly deposited to the specified Binance address. I found these wallets because, except for the wallet 0x719eEb3C6E4903FBF30386FF946F8d74a30B1D21, they received a deposit of 0.1 USDT on the Polygon network on May 26/27, 2021, from the addresses 0xC0A57f1F4C9998A67c8F387CC181b099E7Cd986A or 0x3A2Cc444a0eA0e3e942C23042C196cc5d1f796a0. These two addresses are in Batch A and both claimed 271.834 OP on June 1, 2022, and deposited them into the same Binance account.
 
 **GRAPHIC 3**
+
 Graphic 3 shows the transaction history of the address 0x3A2Cc444a0eA0e3e942C23042C196cc5d1f796a0. This account sent 0.1 USDT over Polygon to numerous wallets on May 27, 2021. The wallets I found this way and that were not already included in Batch A, I listed in Batch B. Additionally, I came across the following addresses, which also received 0.1 USDT and are part of the Sybil network, but were already filtered out by layer zero in the first filtering process:
 - 0x017D0c0429922121Cf25b4Abe519d64B953b9B72
 - 0x13a412D3228Fa4dF502578A736254e4734831A0B
