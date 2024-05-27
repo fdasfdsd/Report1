@@ -161,13 +161,13 @@ The wallets mentioned above are all Sybil wallets operated by two different enti
 
 All wallets in Batch A share a common characteristic: they have all made deposits to the Binance deposit address 0x99036d68404587056732e1982658236AC1219493, which clearly indicates that a single person controls all these wallets.
 
-![Important Diagram](https://github.com/fdasfdsd/mango/blob/main/1.png?raw=true)
+![Important Diagram](https://github.com/fdasfdsd/Report1/blob/main/1.png?raw=true)
 
 The wallets in the middle of Graphic 1 are some wallets from Batch A, which I inserted into the Arkham Tracer. These wallets, like all addresses in Batch A, make deposits into the same Binance account. As can be seen, the accounts conduct transactions of varying amounts with the address 0x366e58737164430AF4AEd2856840be9BB148BDC7 (kingson.eth). The transaction network between the individual wallets is very dense, meaning many of the accounts have directly transferred funds among each other. The wallets icemilk.eth, helianthus.eth, and kingson.eth interact with a disproportionately large number of other wallets.
 
 The person operating the wallets has successfully farmed several other airdrops in the past. Consider the following graphic:
 
-![Important Diagram](https://github.com/fdasfdsd/mango/blob/main/1.png?raw=true)
+![Important Diagram](https://github.com/fdasfdsd/Report1/blob/main/2.png?raw=true)
 
 Graphic 2 shows part of the transaction history of the aforementioned Binance deposit address. In the shown segment, the Sybil attacker claimed 271.834 or 1049 Optimism Tokens with all wallets from Batch A (except for the last 5 addresses) on June 1, 2022, and deposited them into their Binance account on the same day. The account kingson.eth deposited their airdrop reward of 3301 OP on September 2, 2022.
 
@@ -175,7 +175,7 @@ Graphic 2 shows part of the transaction history of the aforementioned Binance de
 
 The wallets in Batch B have not directly deposited to the specified Binance address. I found these wallets because, except for the wallet 0x719eEb3C6E4903FBF30386FF946F8d74a30B1D21, they received a deposit of 0.1 USDT on the Polygon network on May 26/27, 2021, from the addresses 0xC0A57f1F4C9998A67c8F387CC181b099E7Cd986A or 0x3A2Cc444a0eA0e3e942C23042C196cc5d1f796a0. These two addresses are in Batch A and both claimed 271.834 OP on June 1, 2022, and deposited them into the same Binance account.
 
-![Important Diagram](https://github.com/fdasfdsd/mango/blob/main/1.png?raw=true)
+![Important Diagram](https://github.com/fdasfdsd/Report1/blob/main/3.png?raw=true)
 
 Graphic 3 shows the transaction history of the address 0x3A2Cc444a0eA0e3e942C23042C196cc5d1f796a0. This account sent 0.1 USDT over Polygon to numerous wallets on May 27, 2021. The wallets I found this way and that were not already included in Batch A, I listed in Batch B. Additionally, I came across the following addresses, which also received 0.1 USDT and are part of the Sybil network, but were already filtered out by layer zero in the first filtering process:
 - 0x017D0c0429922121Cf25b4Abe519d64B953b9B72
@@ -195,7 +195,7 @@ Since these wallets are so old and mostly interact directly with only a few neig
 
 Approximately half of the specified wallets were funded via Ethereum in 2020. The other half received their first funding in early April 2021 via Polygon. When analyzing the funding structure of the latter wallets, I noticed the following pattern: Each specified wallet received an amount of 105.00-105.40 DAI on Polygon from another wallet in the Sybil network between April 10 and April 13, 2021. Subsequently, each wallet made two transactions through Instadapp and then transferred the DAI back to another wallet in the network.
 
-![Important Diagram](https://github.com/fdasfdsd/mango/blob/main/1.png?raw=true)
+![Important Diagram](https://github.com/fdasfdsd/Report1/blob/main/4.png?raw=true)
 
 **Consider the Pattern Using the Example of Wallet 0xa85e87F7bCE4D5E5c60160D64670c2CF76BC1238 from Batch A in Graphic 4.**
 
@@ -203,7 +203,7 @@ The wallet received 105.95 DAI on April 12, 2021, from wallet 0xf718D1C0bb83f7bF
 
 The transaction pattern resembles a chain that starts from the wallet kingson.eth, runs through the entire Sybil network (i.e., all addresses from Batch A and Batch B, as well as the filtered-out addresses), and ends at the address 0x99e42D084493Cc7730c854d9C45286B2B012F0f3, which no longer actively farms airdrops.
 
-![Important Diagram](https://github.com/fdasfdsd/mango/blob/main/1.png?raw=true)
+![Important Diagram](https://github.com/fdasfdsd/Report1/blob/main/5.png?raw=true)
 
 Graphic 5 illustrates this chain structure: the first three wallets are part of Batch B and are funded by their respective predecessors. Then, the wallet 0xD20 from Batch A receives the DAI, which it then sends to the address 0x7EE, which is on the initial list from layer zero. The wallets thus form a coherent cluster, where each wallet in the Sybil network is directly connected in a line with all other wallets in the network. Starting from the wallet kingson.eth, all other wallets in the cluster can be identified through tracing.
 
@@ -211,7 +211,7 @@ Graphic 5 illustrates this chain structure: the first three wallets are part of 
 
 There are significant differences among the individual wallets regarding age, activity level, and the order of executed transactions. While most wallets have a transaction count between 60 and 120 on Ethereum, the wallet kingson.eth alone has conducted around 1500 transactions on Ethereum. Despite this, many of the wallets follow a similar transaction pattern.
 
-![Important Diagram](https://github.com/fdasfdsd/mango/blob/main/1.png?raw=true)
+![Important Diagram](https://github.com/fdasfdsd/Report1/blob/main/6.png?raw=true)
 
 Graphic 6 shows the transaction pattern of wallets from Batch B on Ethereum using the example of wallet 0xADa4eF03c4A213977672880f39Ca42f3963b1A61. The following transactions are highlighted in red in the graphic:
 1. Many wallets received a deposit from Okx on October 3, 2023, or October 11, 2023.
@@ -227,7 +227,7 @@ Almost all wallets from Batch B and most wallets from Batch A follow this transa
 
 When examining the transaction history of wallets on the Linea network, further similarities become immediately apparent:
 
-![Important Diagram](https://github.com/fdasfdsd/mango/blob/main/1.png?raw=true)
+![Important Diagram](https://github.com/fdasfdsd/Report1/blob/main/7.png?raw=true)
 
 Graphic 7 shows the Linea history of wallet 0x719eEb3C6E4903FBF30386FF946F8d74a30B1D21 from Batch B. All wallets from Batch A and Batch B follow the following pattern:
 1. 77 of the 88 listed wallets from Batch A and Batch B received around 0.04 Ether from the Okx Hot Wallet on February 18, 2024.
@@ -247,7 +247,7 @@ The wallets from Batch C and Batch D are operated by the same entity, which I ca
 
 The wallets exhibit almost identical ages, similar transaction counts, and perform the same activities simultaneously. All wallets have nearly identical balances on Ethereum: they all hold around 0.1 ETH and 0.1 pufETH. I was also able to identify certain transaction patterns in all these wallets.
 
-![Important Diagram](https://github.com/fdasfdsd/mango/blob/main/1.png?raw=true)
+![Important Diagram](https://github.com/fdasfdsd/Report1/blob/main/8.png?raw=true)
 
 As seen in the example of wallet 0x9DA1c9C2112462fDd79eF82DeE9dC27A9ed96fb7 in Graphic 8, the wallets interact with smart contracts on Ethereum in the following pattern:
 1. On July 26, 2023, each of the listed wallets bridged around 0.08 ETH via Stargate to Ethereum.
@@ -260,7 +260,7 @@ When comparing the rest of the Ethereum transaction history, other recurring pat
 
 There are also differences in the Ethereum history, particularly between the two batches. Batch D has an almost identical transaction history on Ethereum. Each wallet sold around 276,000 Titanx Coins on October 29, 2023. Additionally, all wallets from Batch D claimed and staked Eigenlayer Tokens.
 
-![Important Diagram](https://github.com/fdasfdsd/mango/blob/main/1.png?raw=true)
+![Important Diagram](https://github.com/fdasfdsd/Report1/blob/main/9.png?raw=true)
 
 The wallets from Batch C, on the other hand, initially interacted with the Alienswap smart contract 0x6B4, as seen in the example of wallet 0xD8Cf436B2190aAd5B91D06dB96aaaeE71e944b0a in Graphic 2. Subsequently, the wallets executed the previously mentioned transactions. On October 28, 2023, each wallet from Batch C minted a Zerion DNA NFT. Unlike Batch D, only about half of the wallets from Batch C claimed and staked Eigenlayer Tokens. All wallets from Batch C, except for the last two, received ETH from the Alienswap smart contract 0x001FE350a8624166E946f0Ba67065a325bdDcc2B on September 11, 2023.
 
